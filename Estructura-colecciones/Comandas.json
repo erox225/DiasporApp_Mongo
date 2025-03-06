@@ -1,0 +1,26 @@
+{
+    "_id": ObjectId("64ab123456789"),
+    "id_mesa": 1,
+    "estado_mesa": {
+        "id": 3,
+        "nombre": "Esperando Pedir"
+    },
+    "estado": "No Finalizado",
+    "fecha": ISODate("2025-02-25T15:30:00Z"),
+    "platos": [
+        {
+            "id_plato": 1,
+            "nombre": "Sancocho",
+            "precio": 8.00,
+            "comensal": 1,
+            "estado": "No Entregado"
+        },
+        {
+            "id_plato": 2,
+            "nombre": "Arepa",
+            "precio": 3.50,
+            "comensal": 2,
+            "estado": "Entregado"
+        }
+    ]
+}
