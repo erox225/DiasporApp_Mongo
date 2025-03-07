@@ -1,4 +1,4 @@
-use DiasporApp;  // Seleccionar la base de datos
+use restaurante;  // Seleccionar la base de datos
 
 db.createCollection("comandas", {
     validator: {
